@@ -1,0 +1,13 @@
+{
+  "module_name": "capture-control",
+  "visibility": "public",
+  "namespace": "viam",
+  "language": "go",
+  "resource_type": "component",
+  "resource_subtype": "sensor",
+  "model_name": "capture-control-sensor",
+  "initialize_git": false,
+  "generator_version": "0.1.0",
+  "generated_on": "2026-03-03T19:19:59.982966Z",
+  "module_readme_link": "README.md"
+}
