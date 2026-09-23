@@ -250,6 +250,10 @@ func (s *captureControlSensor) DoCommand(ctx context.Context, cmd map[string]int
 	return nil, fmt.Errorf("unknown command: %v", cmd)
 }
 
+func (s *captureControlSensor) Status(ctx context.Context) (map[string]interface{}, error) {
+	return map[string]interface{}{}, nil
+}
+
 func (s *captureControlSensor) Close(context.Context) error {
 	return nil
 }
