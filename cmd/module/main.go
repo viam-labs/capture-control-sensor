@@ -2,9 +2,9 @@ package main
 
 import (
 	"capturecontrol"
+	sensor "go.viam.com/rdk/components/sensor"
 	"go.viam.com/rdk/module"
 	"go.viam.com/rdk/resource"
-	sensor "go.viam.com/rdk/components/sensor"
 )
 
 func main() {
