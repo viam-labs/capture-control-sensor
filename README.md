@@ -64,6 +64,9 @@ Sets the emitted frequency to `0` (disabling capture) and closes any open sequen
 
 Opens a sequence with the given `tags` without changing the capture frequency.
 
+> [!NOTE]
+> This will open a sequence but it won't capture data. Use this when ... (?).
+
 ```json
 { "start_sequence": true, "tags": ["run-1"] }
 ```
