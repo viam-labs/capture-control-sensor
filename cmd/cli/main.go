@@ -1,11 +1,11 @@
 package main
 
 import (
-	"context"
 	"capturecontrol"
+	"context"
+	sensor "go.viam.com/rdk/components/sensor"
 	"go.viam.com/rdk/logging"
 	"go.viam.com/rdk/resource"
-	sensor "go.viam.com/rdk/components/sensor"
 )
 
 func main() {
